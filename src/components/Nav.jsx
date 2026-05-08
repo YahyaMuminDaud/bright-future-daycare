@@ -23,10 +23,10 @@ export default function Nav({ page, setPage }) {
       }}
     >
       <div style={{ lineHeight: 1.2 }}>
-        <div style={{ fontFamily: 'Georgia, serif', fontSize: 17, fontWeight: 900, color: COLORS.skyDark }}>
+        <div style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(12px, 3vw, 17px)', fontWeight: 900, color: COLORS.skyDark }}>
           Bright Future
         </div>
-        <div style={{ fontFamily: 'Georgia, serif', fontSize: 14, fontWeight: 700, color: COLORS.sun }}>
+        <div style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(10px, 2.5vw, 14px)', fontWeight: 700, color: COLORS.sun }}>
           Learning Daycare
         </div>
       </div>
