@@ -12,7 +12,7 @@ export default function App() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div style={{ fontFamily: "'Nunito', sans-serif", background: COLORS.cream, color: COLORS.dark, minHeight: '100vh' }}>
+    <div style={{ fontFamily: "'Nunito', sans-serif", background: COLORS.cream, color: COLORS.dark, minHeight: '100vh', overflowX: 'hidden' }}>
       {showModal && <PhoneModal onClose={() => setShowModal(false)} />}
       <Nav page={page} setPage={setPage} />
       {page === 'home'    && <HomePage    setPage={setPage} openModal={() => setShowModal(true)} />}
