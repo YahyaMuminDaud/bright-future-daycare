@@ -107,6 +107,8 @@ export default function HomePage({ setPage, openModal }) {
           padding: '2.5rem 1.5rem',
           maxWidth: 860,
           margin: '0 auto',
+          width: '100%',
+          boxSizing: 'border-box',
         }}
       >
         {programs.map((c) => (
@@ -118,6 +120,7 @@ export default function HomePage({ setPage, openModal }) {
               padding: '1.5rem 1.25rem',
               textAlign: 'center',
               border: `1.5px solid ${COLORS.border}`,
+              minWidth: 0,
             }}
           >
             <div style={{ fontSize: 36, marginBottom: '0.75rem' }}>{c.icon}</div>

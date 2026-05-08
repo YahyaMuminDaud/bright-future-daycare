@@ -88,6 +88,8 @@ export default function WhyPage() {
           padding: '2rem 1.5rem',
           maxWidth: 860,
           margin: '0 auto',
+          width: '100%',
+          boxSizing: 'border-box',
         }}
       >
         {reasons.map((r) => (
@@ -101,6 +103,7 @@ export default function WhyPage() {
               display: 'flex',
               gap: '1rem',
               alignItems: 'flex-start',
+              minWidth: 0,
             }}
           >
             <div
@@ -118,7 +121,7 @@ export default function WhyPage() {
             >
               {r.icon}
             </div>
-            <div>
+            <div style={{ minWidth: 0 }}>
               <div style={{ fontSize: 15, fontWeight: 800, color: COLORS.dark, marginBottom: '0.35rem' }}>
                 {r.title}
               </div>
