@@ -122,10 +122,10 @@ export default function WhyPage() {
               {r.icon}
             </div>
             <div style={{ minWidth: 0 }}>
-              <div style={{ fontSize: 15, fontWeight: 800, color: COLORS.dark, marginBottom: '0.35rem' }}>
+              <div style={{ fontSize: 13, fontWeight: 800, color: COLORS.dark, marginBottom: '0.35rem' }}>
                 {r.title}
               </div>
-              <div style={{ fontSize: 13, color: COLORS.mid, lineHeight: 1.6 }}>{r.desc}</div>
+              <div style={{ fontSize: 12, color: COLORS.mid, lineHeight: 1.6 }}>{r.desc}</div>
             </div>
           </div>
         ))}
