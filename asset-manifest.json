@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/bright-future-daycare/static/js/main.0caaac1a.js",
+    "main.js": "/bright-future-daycare/static/js/main.b34c8b03.js",
     "index.html": "/bright-future-daycare/index.html",
-    "main.0caaac1a.js.map": "/bright-future-daycare/static/js/main.0caaac1a.js.map"
+    "main.b34c8b03.js.map": "/bright-future-daycare/static/js/main.b34c8b03.js.map"
   },
   "entrypoints": [
-    "static/js/main.0caaac1a.js"
+    "static/js/main.b34c8b03.js"
   ]
 }
