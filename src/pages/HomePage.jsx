@@ -22,7 +22,7 @@ const programs = [
 const infoItems = [
   { label: 'Location', val: 'Kent, WA 98032' },
   { label: 'Hours',    val: 'Mon–Fri · 8am–5pm' },
-  { label: 'License',  val: '#1994227' },
+  { label: 'License',  val: '#86355' },
   { label: 'Subsidy',  val: 'DSHS Accepted ✓' },
 ];
 

@@ -16,7 +16,7 @@ export default function Footer() {
       <div style={{ fontSize: 13, opacity: 0.7, lineHeight: 1.8 }}>
         4518 S 218th St, Kent WA 98032 · (206) 972-8281 · (206) 376-4472
         <br />
-        Lul Ishaq &amp; Ifrah Elmi · License #1994227 · Mon–Fri 8am–5pm
+        Lul Ishaq &amp; Ifrah Elmi · License #86355 · Mon–Fri 8am–5pm
       </div>
     </footer>
   );
