@@ -29,7 +29,7 @@ const reasons = [
     icon: '✅',
     bg: '#E8F5FB',
     title: 'Fully Licensed & Insured',
-    desc: 'State licensed (#1994227), giving you complete peace of mind that your child is in a certified, safe environment.',
+    desc: 'State licensed (#86355), giving you complete peace of mind that your child is in a certified, safe environment.',
   },
   {
     icon: '💰',
@@ -47,7 +47,7 @@ const reasons = [
     icon: '❤️',
     bg: '#FDEEE9',
     title: 'Family-Run with Heart',
-    desc: "Run by Lul Ishaq & Ifrah Elmi, we treat every child like family because that's exactly what this is.",
+    desc: "Run by great caretakers, we treat every child like family because that's exactly what this is.",
   },
 ];
 
@@ -172,7 +172,7 @@ export default function WhyPage() {
           >
             "Bright Future has been an absolute blessing for our family. My daughter
             looks forward to going every single day, and I can tell she's learning so
-            much. Lul and Ifrah are truly wonderful caregivers."
+            much. The caretakers are truly wonderful caregivers."
           </p>
           <strong style={{ fontSize: 13, color: COLORS.dark }}>— Happy Bright Future Family</strong>
         </div>
