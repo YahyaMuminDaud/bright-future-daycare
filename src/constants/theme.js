@@ -15,6 +15,6 @@ export const COLORS = {
 };
 
 export const PHONES = [
-  { label: 'Ifrah Elmi', number: '2069728281', display: '(206) 972-8281' },
-  { label: 'Lul Ishaq', number: '2063764472', display: '(206) 376-4472' },
+  { label: '', number: '2069728281', display: '(206) 972-8281' },
+  { label: '', number: '2063764472', display: '(206) 376-4472' },
 ];
