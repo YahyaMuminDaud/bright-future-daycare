@@ -188,7 +188,7 @@ export default function HomePage({ setPage, openModal }) {
         </p>
         <PhonePills openModal={openModal} />
         <p style={{ color: COLORS.mid, fontSize: 13, marginTop: '1rem' }}>
-          Lul Ishaq &amp; Ifrah Elmi · 4518 S 218th St, Kent WA 98032
+          4518 S 218th St, Kent WA 98032
         </p>
       </div>
     </div>
